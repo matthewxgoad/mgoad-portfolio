@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px dashed red; /* DON'T FORGET TO DELETE THIS */
+    border: 1px dashed red;
 }
 body {
     background-color: var(--kindagrey);
@@ -16,22 +16,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-    padding: 10px;
+    padding: 20px;
     background-color: var(--drkpurple);
     color: var(--kindagrey);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
-    min-height: max-content;
-
 }
 .header h1 {
     display: inline-block;
     font-family: cursive;
     font-size: 48px;
-    position: absolute;
-    left: 30px;
-    top: 10px;
+    margin: 0;
 }
 .header nav {
     padding-top: 15px;
