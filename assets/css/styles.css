@@ -65,8 +65,9 @@ body {
 p {
     background-color: var(--kindagrey);
     padding: 5px;
-    border-radius: 5%;
     width: 600px;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
 .about-me {
     display: flex;
@@ -77,9 +78,11 @@ section {
     margin-top: 3%;
     padding: 5%;
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-color: var(--wrmyellow);
-    width: 900px;
+    width: 90%;
     color: black;
 }
 section > h3 {
@@ -88,10 +91,14 @@ section > h3 {
     padding-bottom: 2px;
     flex: initial;
 }
-.section-right {
-    flex: 1;
-    justify-content: flex-end;
+section img {
+    background-color: var(--kindagrey);
+    padding: 5px;
+    width: 600px;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
+
 section:last-of-type { 
     margin-bottom: 5%;
 }
