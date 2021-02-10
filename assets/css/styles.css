@@ -65,9 +65,9 @@ p {
     line-height: 1.5;
     margin-bottom: 5px;
 }
-.about-me {
+.about-me, .work, .resume, .contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: flex-start;
 }
 section {
     border: none;
@@ -131,5 +131,5 @@ footer a {
     border-radius: 5%;
     display: block;
     margin: 0 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
