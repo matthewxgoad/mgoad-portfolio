@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px dashed red; */
+    border: 1px dashed red;
 }
 body {
     background-color: var(--kindagrey);
@@ -26,7 +26,7 @@ body {
 .header h1 {
     display: inline-block;
     font-family: cursive;
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }
 .header nav {
@@ -87,7 +87,7 @@ section > h3 {
     padding-bottom: 2px;
     flex: initial;
     font-family: cursive;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 section img {
     width: 600px;
