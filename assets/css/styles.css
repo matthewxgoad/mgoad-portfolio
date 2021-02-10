@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 body {
     background-color: var(--kindagrey);
@@ -102,12 +102,20 @@ section:last-of-type {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: flex-start;
     color: var(--kindagrey);
     background-color: var(--drkpurple);
     justify-content: space-around;
     align-items: center;
     padding: 3%;
+}
+footer h3 {
+    display: inline-block;
+    padding-bottom: 2px;
+    flex: initial;
+    font-family: cursive;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--kindagrey);
 }
 footer .contact-info {
     display: flex;
@@ -123,4 +131,5 @@ footer a {
     border-radius: 5%;
     display: block;
     margin: 0 10px;
+    font-size: 1.5rem;
 }
