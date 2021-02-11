@@ -56,32 +56,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     background-color: var(--coralorng);
-}
-p {
-    background-color: var(--kindagrey);
-    padding: 5px;
-    width: 600px;
-    line-height: 1.5;
-    margin-bottom: 5px;
 }
 .about-me, .work, .resume, .contact {
     display: flex;
     flex-direction: flex-start;
 }
-section {
+.main-content {
     border: none;
     margin-top: 3%;
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
     background-color: var(--wrmyellow);
     width: 90%;
-    color: black;
+    color: var(--drkpurple);
 }
-section > h3 {
+.main-content > h3 {
     display: inline-block;
     border-bottom: 2px solid var(--drkpurple);
     padding-bottom: 2px;
@@ -89,13 +83,28 @@ section > h3 {
     font-family: cursive;
     font-size: 2rem;
 }
-/* Container holding the image and the text */
+.section-right {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--kindagrey);
+    padding: 5%;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+#work-section {
+    background-color: var(--wrmyellow);
+}
 .example-container {
     position: relative;
     text-align: center;
     color: white;
+    background-color: var(--wrmyellow);
+    height: 20%;
   }
-/* Centered text */
+  #work-section {
+      padding: 0;
+  }
 .example-label {
     position: absolute;
     top: 50%;
@@ -108,13 +117,16 @@ section > h3 {
     padding: 1em;
     border-radius: 13%;
   }
-section img {
-    width: 600px;
+  .portfolio-bottom-row {
+      display: flex;
+  }
+.section-right img {
     margin-bottom: 5px;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    width: 100%;
+    
 }
-
 section:last-of-type { 
     margin-bottom: 5%;
 }
@@ -126,7 +138,7 @@ footer {
     flex-direction: flex-start;
     color: var(--kindagrey);
     background-color: var(--drkpurple);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 3%;
 }
