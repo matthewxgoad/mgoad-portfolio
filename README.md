@@ -1,11 +1,16 @@
 # Matthew Goad's Portfolio Site
 
+![Image of the deployed page.](/assets/images/screenshot-deployed-site.png)
 [Click here to visit the site](http://matthewxgoad.github.com/mgoad-portfolio)
 
 ## Description
 
-This is Matthew Goad's professional portfolio to date. While there aren't a lot of projects featured _yet_, there are many to come soon. 
+This is my professional portfolio and resume to date. While there aren't a lot of projects featured _yet_, there are many to come soon. 
+
+## Purpose
+
+This page satisfies an HTML/CSS project component of Washington University's Coding Book Camp. It also serves as a prelimenary portfolio landing page for my work  
 
 ## Credits
 
-This site was coded entirely by Matthew Goad.
+Coded by me, Matthew Goad, with the help of my instructors, tudor, and fellow students.
