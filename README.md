@@ -1,7 +1,7 @@
 # Matthew Goad's Portfolio Site
 
 ![Image of the deployed page.](/assets/images/screenshot-deployed-site.png)
-[Click here to visit the site](http://matthewxgoad.github.com/mgoad-portfolio)
+[Click here to visit the site](http://matthewxgoad.github.io/mgoad-portfolio)
 
 ## Description
 
